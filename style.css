@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+.scrollhidden::-webkit-scrollbar {
+  display: none;
+}
+.utext {
+  height: 30px;
+  width: 100%;
+  color: rgb(101, 148, 32);
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.inputTag {
+  border: none;
+  outline: none;
+}
+.nav-1 {
+  display: none;
+}
+.cart {
+  display: none;
+}
+.dropbutton {
+  width: 83px;
+  display: flex;
+  height: 40px;
+  border-radius: 17px;
+  border: none;
+  outline: none;
+}
+.flagmenu img,
+.dropbutton img {
+  width: 25px;
+  height: 20px;
+  border-radius: 50%;
+}
+.dropbutton p {
+  margin-left: 7px;
+}
+.dropdown-toggle::after {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.hoverTag p {
+  position: relative;
+}
+.hoverTag p::after {
+  content: "";
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 0%;
+  height: 1px;
+  background-color: black;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hoverTag p:hover::after {
+  width: 100%;
+}
+.popularCatagories img {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.popularCatagories .hoverimg:hover {
+  transition: 0.5s;
+  scale: 1.08;
+}
+.homesection {
+  margin-bottom: 2rem 0;
+}
+.popularCatagories {
+  margin: 1rem 0 1rem 0;
+}
+.ourHpSection {
+  margin: 1rem 0 1rem 0;
+}
+.ourHpSection img {
+  width: 230px;
+  height: 160px;
+}
+.searchhover {
+  position: relative;
+}
+.searchhover span i {
+  display: none;
+}
+.searchhover:hover span {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  /* transition: 0.5s;*/
+}
+.searchhover:hover span i {
+  display: block;
+}
+
+.Ourbacktoschool {
+  margin: 5rem 0;
+}
+.Ourbacktoschool img {
+  width: 230px;
+  height: 160px;
+}
+.treeimg img {
+  width: 700px;
+  height: 323px;
+}
+.commentsection {
+  margin: 5rem;
+}
+.sayhelloimg {
+  width: 1500px;
+  height: 550px;
+  background-image: url(images/bg7.webp);
+  background-position: center;
+  background-size: cover;
+}
+.hellosection {
+  background-color: white;
+  width: 360px;
+  height: 330px;
+  border-radius: 20px;
+  padding: 30px;
+  margin: 5rem 7rem;
+}
+.footer {
+  display: flex;
+}
+@media screen and (max-width: 667px) {
+  span{
+        font-size: 15px;
+   }
+  p {
+    font-size: 15px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .treeimg img {
+    margin: 0 2px;
+    width: 340px;
+    height: 200px;
+  }
+  .sayhelloimg {
+    width: 370px;
+    height: 550px;
+  }
+  .hellosection {
+    width: 274px;
+    padding: 22px;
+    margin: 3rem 2rem;
+  }
+  header img {
+    width: 200px;
+  }
+  .nav-1 {
+    display: block;
+  }
+  .nav-1 .mobilenavbar {
+    width: 85vw;
+    height: 220px;
+    margin-top: 3rem;
+    margin-left: -211px;
+  }
+  .nav-2 {
+    display: none;
+  }
+  .cart {
+    display: block;
+  }
+  .cart i {
+    font-size: 38px;
+  }
+  .menu {
+    display: none;
+  }
+  .popularCatagories img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  .ourHpSection img {
+    width: 122px;
+    height: 93px;
+  }
+  .Ourbacktoschool img {
+    width: 122px;
+    height: 93px
+  }
+  .searchhover {
+    text-align: center;
+  }
+  .searchhover span i {
+    font-size: 10px!important;
+  }
+  .searchhover:hover span {
+    position: absolute;
+    top: 1px;
+    right: -12px;
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    /* transition: 0.5s; */
+}
+}
